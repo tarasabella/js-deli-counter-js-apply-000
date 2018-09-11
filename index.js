@@ -4,8 +4,6 @@ function takeANumber(katzDeliLine, nowServing){
   console.log('Welcome, " + nowServing + ". You are number " + katzDeliLine.length + " in line.');
   return console.log;
 }
-takeANumber(katzDeli, "Ada");
-takeANumber(katzDeli, "Grace");
 function nowServing(katzDeli) {
   let i = 0;
   while (i < katzDeli.length) {
